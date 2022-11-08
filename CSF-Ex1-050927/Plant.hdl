@@ -1,0 +1,10 @@
+CHIP Plant {
+		IN x, y, z;
+		OUT out;
+		
+	PARTS:
+	And(a=x, b=y, out=c);
+	And(a=c, b=z, out=d);
+	Or(a=c, b=d, out=out);
+	
+	}

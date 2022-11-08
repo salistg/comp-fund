@@ -1,0 +1,80 @@
+
+load Or8.hdl,
+output-file Or8.out,
+compare-to Or8.cmp,
+output-list a%B1.8.1 b%B1.8.1 out%B1.8.1;
+
+set a %B00000000,
+set b %B00000000,
+eval,
+output;
+
+set a %B00000000,
+set b %B11111111,
+eval,
+output;
+
+set a %B11111111,
+set b %B11111111,
+eval,
+output;
+
+set a %B10101010,
+set b %B01010101,
+eval,
+output;
+
+set a %B00111100,
+set b %B00001111,
+eval,
+output;
+
+set a %B00010010,
+set b %B10011000,
+eval,
+output;
+
+set a %B00100111,
+set b %B00101111,
+eval,
+output;
+
+set a %B00100010,
+set b %B00111111,
+eval,
+output;
+
+set a %B01111111,
+set b %B00100000,
+eval,
+output;
+
+set a %B00000110,
+set b %B00000010,
+eval,
+output;
+
+set a %B00000100,
+set b %B00000001,
+eval,
+output;
+
+set a %B00000011,
+set b %B00000000,
+eval,
+output;
+
+set a %B01111000,
+set b %B01110110,
+eval,
+output;
+
+set a %B01010101,
+set b %B00011000,
+eval,
+output;
+
+set a %B00000111,
+set b %B00011110,
+eval,
+output;
